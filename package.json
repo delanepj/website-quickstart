@@ -1,0 +1,31 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Patrick Delaney's Personal Website",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta3",
+	"body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "morgan": "~1.7.0",
+    "node-sass-middleware": "0.8.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delanepj/personal-website.git"
+  },
+  "author": "Patrick Delaney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delanepj/personal-website/issues"
+  },
+  "homepage": "https://github.com/delanepj/personal-website#readme"
+}
